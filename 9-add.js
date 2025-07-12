@@ -5,8 +5,4 @@ function add(x, y) {
   return x + y;
 }
 
-if (isNaN(a) || isNaN(b)) {
-  console.log("Missing or invalid number(s)");
-} else {
-  console.log(add(a, b));
-}
+console.log(add(a, b));
